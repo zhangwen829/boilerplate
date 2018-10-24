@@ -1,12 +1,13 @@
-const User = require('./server/db/models/user.js');
 const db = require('./server/db/db.js');
+const { User } = require('./server/db/models');
+
 
 const seed = async () => {
   try {
     await db.sync({ force: true });
     await User.create({
-      email: 'cody@email.com',
-      password: '12345',
+      email: 'test@email.com',
+      password: '1234',
     });
     console.log(`Seed success!`);
     db.close();

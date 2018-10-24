@@ -1,5 +1,5 @@
 {
-  "name": "Boilermaker",
+  "name": "Boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,6 +17,7 @@
     "lodash": "^4.17.11",
     "morgan": "^1.9.0",
     "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
     "pg": "^7.5.0",
     "pg-hstore": "^2.3.2",
     "react": "^16.4.0",

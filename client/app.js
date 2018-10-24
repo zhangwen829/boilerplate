@@ -6,7 +6,7 @@ import '../public/style.css';
 
 ReactDOM.render(
   <Provider store={store}>
-    <div>My Boilermaker</div>
+    <div>My Boilerplate</div>
   </Provider>,
   document.getElementById('app')
 );
